@@ -1,0 +1,5 @@
+[1] Config.pm:318> INFO - This is Biber 1.8
+[1] Config.pm:321> INFO - Logfile is 'cv.blg'
+[105] biber:275> INFO - === mer. nov. 21, 2018, 14:14:05
+[105] Biber.pm:333> INFO - Reading 'cv.bcf'
+[194] Utils.pm:169> WARN - No data sources defined!

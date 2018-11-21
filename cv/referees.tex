@@ -1,0 +1,33 @@
+\cvsection{Referees}
+
+\newcommand{\cvdoublecolumn}[2]{%
+    \begin{minipage}[t]{{.45\linewidth}}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{{.45\linewidth}}#2\end{minipage}%
+}
+
+\newcommand{\cvreference}[7]{%
+    \textbf{#1}\newline% Name
+    \ifthenelse{\equal{#2}{}}{}{#2\newline}%
+    \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+    \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+    \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+    \ifthenelse{\equal{#6}{}}{}{\faEnvelope\acvHeaderIconSep~\texttt{#6}\newline}%
+    \ifthenelse{\equal{#7}{}}{}{#7}}
+
+\cvdoublecolumn{\cvreference{Matthieu Foll}
+    {GEN/GCS group}
+    {International Agency for Research on Cancer}
+    {Lyon, France}
+    {}
+    {FollM@iarc.fr}
+    {+334-72-73-85-37}%
+    }
+    {\cvreference{James McKay}
+    {GEN/GCS group}
+    {International Agency for Research on Cancer}
+    {Lyon, France}
+    {}
+    {McKayJ@iarc.fr}
+    {+334-72-73-80-93}%
+    }
